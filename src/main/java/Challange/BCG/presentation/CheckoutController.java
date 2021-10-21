@@ -1,5 +1,6 @@
 package Challange.BCG.presentation;
 
+import Challange.BCG.application.port.OrderService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -13,9 +14,15 @@ import java.util.List;
 @RequestMapping()
 public class CheckoutController {
 
+    private final OrderService iTotalService;
+
+    public CheckoutController(OrderService iTotalService) {
+        this.iTotalService = iTotalService;
+    }
+
     @PostMapping("/checkout")
     public ResponseEntity<?> checkout(@RequestBody @Valid List<String> req){
-        Integer total = 0;
+        Integer total = iTotalService.getTotal(req);
         return ResponseEntity.ok(total);
     }
 }
