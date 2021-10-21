@@ -7,6 +7,7 @@ import Challange.BCG.domain.WatchRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 @Repository
 public class InMemoryWatchRepository implements WatchRepository {
@@ -35,6 +36,9 @@ public class InMemoryWatchRepository implements WatchRepository {
 
     @Override
     public List<Watch> watchListOf(Set<String> watchIds) {
-        return null;
+        return watches.entrySet().stream()
+                .filter(x -> watchIds.contains(x.getKey()))
+                .map(Map.Entry::getValue)
+                .collect(Collectors.toList());
     }
 }
