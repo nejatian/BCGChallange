@@ -24,10 +24,14 @@ public class DefaultOrderService implements OrderService {
 
         // create an order
         Order order = new Order();
+
+        // TODO: we can do it in fewer steps
         requestList.forEach(item -> {
             int count = Collections.frequency(requestList, item);
             orderCountPerItem.put(item, count);
         });
+
+        // TODO: try to use WatchListOf instead of watchOf
         orderCountPerItem.forEach((id, count) -> order.addOrderLine(watchRepository.watchOf(id).orElseThrow(), count));
 
         // add order line for each watch
