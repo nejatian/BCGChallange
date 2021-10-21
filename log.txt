@@ -1,0 +1,96 @@
+commit a29ac14bcb6a2fc9e7b2ed56111f9bb535d3091f
+Author: Nejatians <nejatian@outlook.com>
+Date:   Thu Oct 21 16:42:45 2021 +0200
+
+    To do list added
+
+commit d51ec1e7e8b3bf9d263689c48fd19067a30e4395
+Author: Nejatians <nejatian@outlook.com>
+Date:   Thu Oct 21 16:40:13 2021 +0200
+
+    presentation layer improvment
+
+commit 5a594c12882f78da90fcc05a9e97154f796ad03e
+Author: Nejatians <nejatian@outlook.com>
+Date:   Thu Oct 21 16:37:40 2021 +0200
+
+    repository improved
+
+commit 0dc98d24e7a8b54151aa1121501ed40d4dab944f
+Author: Nejatians <nejatian@outlook.com>
+Date:   Thu Oct 21 16:35:05 2021 +0200
+
+    service improvments
+
+commit b87b207bb7caff7de937b8293cd55989abbc28d8
+Author: Nejatians <nejatian@outlook.com>
+Date:   Thu Oct 21 16:30:43 2021 +0200
+
+    repository added
+
+commit c7c0d289931eb573c2a26143157254a77fbb20e2
+Author: Nejatians <nejatian@outlook.com>
+Date:   Thu Oct 21 16:27:14 2021 +0200
+
+    Service initial
+
+commit 06cb01c7a89c22f2756fb067907c261c8f0f82f9
+Author: Nejatians <nejatian@outlook.com>
+Date:   Thu Oct 21 16:21:04 2021 +0200
+
+    orderline test added
+
+commit 1df367a69bdbb1edd926cbe2a14d95e383afce06
+Author: Nejatians <nejatian@outlook.com>
+Date:   Thu Oct 21 16:16:49 2021 +0200
+
+    order domain and test
+
+commit 7a683b131fab77583594dd63746b17c3bdecc504
+Author: Nejatians <nejatian@outlook.com>
+Date:   Thu Oct 21 16:06:35 2021 +0200
+
+    Watch domain class and tests
+
+commit 3073cffb7b14ff50027007968df121632d84e59f
+Author: Nejatians <nejatian@outlook.com>
+Date:   Thu Oct 21 15:46:31 2021 +0200
+
+    presentation layer first init
+
+commit ce535c2c3d30c72b0a38718f76b289df374bcd06
+Author: Nejatians <nejatian@outlook.com>
+Date:   Thu Oct 21 15:45:10 2021 +0200
+
+    presentation test
+
+commit 0d5397293797fc9e9d9de0cf212d621c384c301d
+Merge: 2cabc88 404c932
+Author: Nejatians <nejatian@outlook.com>
+Date:   Thu Oct 21 15:37:01 2021 +0200
+
+    Merge branch 'main' of https://github.com/nejatian/BCGChallange into main
+
+commit 404c932030a3303dd3e9d4ae92cbb7935404e2f0
+Author: Nejatians <nejatian@outlook.com>
+Date:   Thu Oct 21 15:35:03 2021 +0200
+
+    Delete .gitignore
+
+commit 2cabc88085fe5a8cf8212ff281de55af07568471
+Author: Nejatians <nejatian@outlook.com>
+Date:   Thu Oct 21 15:33:39 2021 +0200
+
+    first init
+
+commit ffeb8d2706f06f019ca70813b6aa19b23f3c3d1d
+Author: Nejatians <nejatian@outlook.com>
+Date:   Thu Oct 21 15:28:03 2021 +0200
+
+    first init
+
+commit 2772082d75b90363ce10a10adc9b3a4eb7d348c5
+Author: Nejatians <nejatian@outlook.com>
+Date:   Thu Oct 21 14:56:12 2021 +0200
+
+    Initial commit
